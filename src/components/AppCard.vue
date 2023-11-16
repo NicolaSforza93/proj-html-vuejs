@@ -11,12 +11,12 @@ export default {
 
 <template>
     <div class="card p-2">
-        <div class="position-relative">
+        <figure class="position-relative mb-0">
             <img :src="item.image" class="card-img-top" alt="...">
             <div class="overlay">
                 <font-awesome-icon icon="fa-regular fa-square-check" class="check" />
             </div>
-        </div>
+        </figure>
         <div class="card-body text-start">
             <p class="name mb-0 text-nowrap">{{ item.name }}</p>
             <p class="filter mb-0">{{ item.filter }}</p>

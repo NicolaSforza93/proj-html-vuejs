@@ -60,5 +60,6 @@ export const store = reactive({
             filter: 'Men, Jackets',
             price: 96
         }
-    ]
+    ],
+    sliderMd: ['/spring_printed_dress-400x520.jpg', '/modern_love_tee-400x520.jpg', '/black_leather_jacket-400x520.jpg', '/black_elegant_leather_jacket-400x520.jpg', '/hipster_black_top-400x520.jpg']
 });

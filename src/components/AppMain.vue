@@ -36,23 +36,23 @@ export default {
 
     <section class="collection">
         <div class="container-fluid px-0 d-flex">
-            <div class="col winter position-relative">
+            <div class="winter position-relative w-100">
                 <div class="text d-flex flex-column justify-content-end align-items-center text-white">
-                    <h1 class="mb-1 text-nowrap">Winter Colection</h1>
+                    <h1 class="mb-1 text-nowrap">Winter Collection</h1>
                     <p class="text-uppercase mb-2">Stylish and warm</p>
                     <button type="button" class="btn text-uppercase px-4 button-light">View More</button>
                 </div>
             </div>
-            <div class="col spring position-relative">
+            <div class="spring position-relative w-100">
                 <div class="text d-flex flex-column justify-content-end align-items-center text-white">
-                    <h1 class="mb-1 text-nowrap">Winter Colection</h1>
+                    <h1 class="mb-1 text-nowrap">Winter Collection</h1>
                     <p class="text-uppercase mb-2">Bright and colorful</p>
                     <button type="button" class="btn text-uppercase px-4 button-light">View More</button>
                 </div>
             </div>
-            <div class="col autumn position-relative">
+            <div class="autumn position-relative w-100">
                 <div class="text d-flex flex-column justify-content-end align-items-center text-white">
-                    <h1 class="mb-1 text-nowrap">Winter Colection</h1>
+                    <h1 class="mb-1 text-nowrap">Winter Collection</h1>
                     <p class="text-uppercase mb-2">Rich and comfortable</p>
                     <button type="button" class="btn text-uppercase px-4 button-light">View More</button>
                 </div>

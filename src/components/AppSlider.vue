@@ -1,27 +1,51 @@
 <script>
+import { store } from '../store';
 
+export default {
+    data() {
+        return {
+            store
+        }
+    }
+}
 </script>
 
 <template>
-    <div class="col slider-wrapper">
-        <div class="ctrl-previous">
-            <i class="fa-solid fa-chevron-up"></i>
+    <div class="slider-wrapper w-100 position-relative">
+        <div class="ctrl ctrl-prev">
+            <font-awesome-icon icon="fa-solid fa-chevron-left" />
         </div>
-        <div class="item d-flex">
-            <img src="/spring_printed_dress-400x520.jpg" alt="">
-            <img src="/modern_love_tee-400x520.jpg" alt="">
-            <img src="/black_leather_jacket-400x520.jpg" alt="">
-            <img src="/black_elegant_leather_jacket-400x520.jpg" alt="">
-            <img src="/hipster_black_top-400x520.jpg" alt="">
+        <div class="slide d-flex">
+            <figure class="mb-0" v-for="(slide, index) in store.sliderMd">
+                <img :src="slide" alt="">
+            </figure>
         </div>
-        <div class="ctrl-next">
-            <i class="fa-solid fa-chevron-down"></i>
+        <div class="ctrl ctrl-next">
+            <font-awesome-icon icon="fa-solid fa-chevron-right" />
         </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
-.item img {
-    width: 120px;
+.ctrl {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    background-color: #C1C1C1;
+    line-height: 19px;
+    padding: 12px 7px;
+    cursor: pointer;
+    color: white;
+    font-size: 10px;
+}
+
+.ctrl.ctrl-prev {
+    left: 0;
+    z-index: 50;
+}
+
+.ctrl.ctrl-next {
+    right: 0;
+    z-index: 50;
 }
 </style>

@@ -4,12 +4,12 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faChevronDown, faCartShopping, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown, faCartShopping, faMagnifyingGlass, faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 import { faSquareCheck } from '@fortawesome/free-regular-svg-icons'
 import { faFacebookF, faXTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 
-library.add(faFacebookF, faXTwitter, faInstagram, faYoutube, faChevronDown, faCartShopping, faMagnifyingGlass, faSquareCheck)
+library.add(faFacebookF, faXTwitter, faInstagram, faYoutube, faChevronDown, faCartShopping, faMagnifyingGlass, faSquareCheck, faChevronRight, faChevronLeft)
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)

@@ -5,7 +5,7 @@
 <template>
     <section class="hero">
         <div class="container-fluid px-0 position-relative">
-            <div class="message d-flex flex-column align-items-center">
+            <div class="notice d-flex flex-column align-items-center">
                 <h1 class="mb-1">Brand New Arrivals</h1>
                 <h6 class="mb-4 text-uppercase fw-normal">New collection from New York</h6>
                 <div class="button-group d-flex align-items-center gap-3">
@@ -24,7 +24,7 @@
     background-size: cover;
     background-position: center;
 
-    .message {
+    .notice {
         position: absolute;
         top: 50%;
         left: 50%;

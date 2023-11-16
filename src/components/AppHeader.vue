@@ -63,7 +63,8 @@ export default {
                         class="menu-item d-flex align-items-center gap-2 position-relative py-4">
                         <a href="#" class="text-decoration-none">{{
                             navLink.name }}</a>
-                        <font-awesome-icon icon="fa-solid fa-chevron-down" class="arrow-down" />
+                        <font-awesome-icon icon="fa-solid fa-chevron-down" class="arrow-down"
+                            v-if="navLink.arrow === true" />
                     </li>
                 </ul>
                 <button type="button" class="btn text-nowrap text-uppercase fw-semibold px-3">Shop Now!</button>

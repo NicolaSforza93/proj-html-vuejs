@@ -32,7 +32,6 @@ export default {
 
 .card {
     border: none;
-    width: 200px;
 }
 
 .overlay {

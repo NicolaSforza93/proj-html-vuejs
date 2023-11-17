@@ -37,6 +37,7 @@
         height: 320px;
 
         h2 {
+            font-family: 'Montserrat', sans-serif;
             font-weight: 700;
         }
 
@@ -60,6 +61,10 @@
         color: white;
         font-size: 10px;
         font-weight: 500;
+
+        &:hover {
+            background-color: transparent;
+        }
     }
 }
 </style>

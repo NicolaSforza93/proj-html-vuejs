@@ -5,23 +5,23 @@
 <template>
     <section class="collection">
         <div class="container-fluid px-0 d-flex">
-            <div class="winter position-relative w-100">
-                <div class="text d-flex flex-column justify-content-end align-items-center text-white">
-                    <h1 class="mb-1 text-nowrap">Winter Collection</h1>
+            <div class="winter w-100">
+                <div class="text d-flex flex-column justify-content-end align-items-center text-white text-center">
+                    <h1 class="mb-1">Winter Collection</h1>
                     <p class="text-uppercase mb-2">Stylish and warm</p>
                     <button type="button" class="btn text-uppercase px-4 button-light">View More</button>
                 </div>
             </div>
-            <div class="spring position-relative w-100">
-                <div class="text d-flex flex-column justify-content-end align-items-center text-white">
-                    <h1 class="mb-1 text-nowrap">Spring Collection</h1>
+            <div class="spring w-100">
+                <div class="text d-flex flex-column justify-content-end align-items-center text-white text-center">
+                    <h1 class="mb-1">Spring Collection</h1>
                     <p class="text-uppercase mb-2">Bright and colorful</p>
                     <button type="button" class="btn text-uppercase px-4 button-light">View More</button>
                 </div>
             </div>
-            <div class="autumn position-relative w-100">
-                <div class="text d-flex flex-column justify-content-end align-items-center text-white">
-                    <h1 class="mb-1 text-nowrap">Autumn Collection</h1>
+            <div class="autumn w-100">
+                <div class="text d-flex flex-column justify-content-end align-items-center text-white text-center">
+                    <h1 class="mb-1">Autumn Collection</h1>
                     <p class="text-uppercase mb-2">Rich and comfortable</p>
                     <button type="button" class="btn text-uppercase px-4 button-light">View More</button>
                 </div>
@@ -32,9 +32,6 @@
 
 <style lang="scss" scoped>
 .collection {
-    .container-fluid {
-        height: 400px;
-    }
 
     .winter {
         background-image: url('/winter_collection_bg.jpg');
@@ -53,29 +50,30 @@
     .autumn {
         background-size: cover;
         background-position: center top;
-
-        .text {
-            position: absolute;
-            top: 77%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
+        padding: 240px 20px 43px;
 
         h1 {
-            font-size: 30px;
+            font-size: 45px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
         }
 
         p {
-            font-size: 13px;
+            font-size: 16px;
         }
     }
 
     .button-light {
+        background-color: rgba(255, 255, 255, 0.171);
         border: 1px solid white;
         border-radius: 17px;
         color: white;
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 500;
+
+        &:hover {
+            background-color: transparent;
+        }
     }
 }
 </style>

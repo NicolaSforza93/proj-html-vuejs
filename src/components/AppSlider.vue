@@ -1,10 +1,10 @@
 <script>
-import { store } from '../store';
 
 export default {
-    data() {
-        return {
-            store
+    props: {
+        item: {
+            type: Object,
+            required: true
         }
     }
 }
@@ -16,8 +16,8 @@ export default {
             <font-awesome-icon icon="fa-solid fa-chevron-left" />
         </div>
         <div class="slide d-flex">
-            <figure class="mb-0" v-for="(slide, index) in store.sliderMd">
-                <img :src="slide" alt="">
+            <figure class="mb-0" v-for="(slide, index) in item">
+                <img :src="slide.image" alt="">
             </figure>
         </div>
         <div class="ctrl ctrl-next">
@@ -40,12 +40,12 @@ export default {
 }
 
 .ctrl.ctrl-prev {
-    left: 0;
+    left: 10px;
     z-index: 50;
 }
 
 .ctrl.ctrl-next {
-    right: 0;
+    right: -10px;
     z-index: 50;
 }
 </style>

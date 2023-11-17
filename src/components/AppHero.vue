@@ -33,6 +33,7 @@
 
         h1 {
             font-size: 60px;
+            font-family: 'Montserrat', sans-serif;
             font-weight: 700;
         }
 
@@ -43,6 +44,10 @@
             color: white;
             font-size: 12px;
             font-weight: 500;
+
+            &:hover {
+                background-color: transparent;
+            }
         }
     }
 }

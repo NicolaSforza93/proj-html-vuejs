@@ -63,6 +63,7 @@ export default {
 
 .card-body {
     .name {
+        font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 14px;
     }

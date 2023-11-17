@@ -56,10 +56,73 @@ export const store = reactive({
         },
         {
             image: '/modern_black_leather_suit-400x520.jpg',
-            name: "Modern Black Leather Suit",
+            name: 'Modern Black Leather Suit',
             filter: 'Men, Jackets',
             price: 96
         }
     ],
-    sliderMd: ['/spring_printed_dress-400x520.jpg', '/modern_love_tee-400x520.jpg', '/black_leather_jacket-400x520.jpg', '/black_elegant_leather_jacket-400x520.jpg', '/hipster_black_top-400x520.jpg']
+
+    sliderMd: [{
+        image: '/spring_printed_dress-400x520.jpg',
+        name: 'Modern Black Leather Suit',
+        filter: 'Men, Jackets',
+        price: 96
+    },
+    {
+        image: '/modern_love_tee-400x520.jpg',
+        name: 'Modern Black Leather Suit',
+        filter: 'Men, Jackets',
+        price: 96
+    },
+    {
+        image: '/black_leather_jacket-400x520.jpg',
+        name: 'Modern Black Leather Suit',
+        filter: 'Men, Jackets',
+        price: 96
+    },
+    {
+        image: '/black_elegant_leather_jacket-400x520.jpg',
+        name: 'Modern Black Leather Suit',
+        filter: 'Men, Jackets',
+        price: 96
+    },
+    {
+        image: '/hipster_black_top-400x520.jpg',
+        name: 'Modern Black Leather Suit',
+        filter: 'Men, Jackets',
+        price: 96
+    }
+    ],
+
+    sliderLg: [{
+        image: '/black_elegant_leather_jacket-400x520.jpg',
+        name: 'Modern Black Leather Suit',
+        filter: 'Men, Jackets',
+        price: 96
+    },
+    {
+        image: '/hipster_black_top-400x520.jpg',
+        name: 'Modern Black Leather Suit',
+        filter: 'Men, Jackets',
+        price: 96
+    },
+    {
+        image: '/public/black_leather_suit-400x520.jpg',
+        name: 'Modern Black Leather Suit',
+        filter: 'Men, Jackets',
+        price: 96
+    },
+    {
+        image: '/spring_printed_dress-400x520.jpg',
+        name: 'Modern Black Leather Suit',
+        filter: 'Men, Jackets',
+        price: 96
+    },
+    {
+        image: '/modern_love_tee-400x520.jpg',
+        name: 'Modern Black Leather Suit',
+        filter: 'Men, Jackets',
+        price: 96
+    }
+    ]
 });

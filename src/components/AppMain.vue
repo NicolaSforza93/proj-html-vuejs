@@ -4,10 +4,11 @@ import AppCard from './AppCard.vue';
 import AppSlider from './AppSlider.vue';
 import AppCollections from './AppCollections.vue';
 import AppPromo from './AppPromo.vue';
+import AppTestimonial from './AppTestimonial.vue';
 import { store } from '../store';
 
 export default {
-    components: { AppHero, AppCard, AppSlider, AppCollections, AppPromo },
+    components: { AppHero, AppCard, AppSlider, AppCollections, AppPromo, AppTestimonial },
     data() {
         return {
             store
@@ -44,16 +45,29 @@ export default {
             <h2 class="title d-flex align-items-center justify-content-center gap-4 mb-1">Best Seller</h2>
             <p class="mb-4">Must have products from our top sellers</p>
             <div class="d-flex align-items-center justify-content-center">
-                <AppSlider />
+                <AppSlider :item="store.sliderMd" />
             </div>
         </div>
     </section>
 
     <AppPromo />
+
+    <section class="best-seller text-center py-5">
+        <div class="container">
+            <h2 class="title d-flex align-items-center justify-content-center gap-4 mb-1">New Arrivals</h2>
+            <p class="mb-4">Brand new products from top designers</p>
+        </div>
+        <div class="container-fluid px-0 d-flex align-items-center justify-content-center">
+            <AppSlider :item="store.sliderLg" />
+        </div>
+    </section>
+
+    <AppTestimonial />
 </template>
 
 <style lang="scss" scoped>
 .title {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 37px;
 
@@ -77,7 +91,8 @@ export default {
 }
 
 .list-group-item {
-    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 
     &:hover {
         background-color: #F6F6F6;

@@ -6,10 +6,11 @@ import AppCollections from './AppCollections.vue';
 import AppPromo from './AppPromo.vue';
 import AppTestimonial from './AppTestimonial.vue';
 import AppBlog from './AppBlog.vue';
+import AppWidget from './AppWidget.vue';
 import { store } from '../store';
 
 export default {
-    components: { AppHero, AppCard, AppSlider, AppCollections, AppPromo, AppTestimonial, AppBlog },
+    components: { AppHero, AppCard, AppSlider, AppCollections, AppPromo, AppTestimonial, AppBlog, AppWidget },
     data() {
         return {
             store
@@ -66,6 +67,8 @@ export default {
     <AppTestimonial />
 
     <AppBlog />
+
+    <AppWidget />
 </template>
 
 <style lang="scss" scoped>

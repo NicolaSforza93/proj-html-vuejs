@@ -59,91 +59,192 @@ export const store = reactive({
             name: 'Modern Black Leather Suit',
             filter: 'Men, Jackets',
             price: 96
+        }],
+
+    sliderMd: [
+        {
+            image: '/spring_printed_dress-400x520.jpg',
+            name: 'Modern Black Leather Suit',
+            filter: 'Men, Jackets',
+            price: 96
+        },
+        {
+            image: '/modern_love_tee-400x520.jpg',
+            name: 'Modern Black Leather Suit',
+            filter: 'Men, Jackets',
+            price: 96
+        },
+        {
+            image: '/black_leather_jacket-400x520.jpg',
+            name: 'Modern Black Leather Suit',
+            filter: 'Men, Jackets',
+            price: 96
+        },
+        {
+            image: '/black_elegant_leather_jacket-400x520.jpg',
+            name: 'Modern Black Leather Suit',
+            filter: 'Men, Jackets',
+            price: 96
+        },
+        {
+            image: '/hipster_black_top-400x520.jpg',
+            name: 'Modern Black Leather Suit',
+            filter: 'Men, Jackets',
+            price: 96
+        }],
+
+    sliderLg: [
+        {
+            image: '/black_elegant_leather_jacket-400x520.jpg',
+            name: 'Modern Black Leather Suit',
+            filter: 'Men, Jackets',
+            price: 96
+        },
+        {
+            image: '/hipster_black_top-400x520.jpg',
+            name: 'Modern Black Leather Suit',
+            filter: 'Men, Jackets',
+            price: 96
+        },
+        {
+            image: '/public/black_leather_suit-400x520.jpg',
+            name: 'Modern Black Leather Suit',
+            filter: 'Men, Jackets',
+            price: 96
+        },
+        {
+            image: '/spring_printed_dress-400x520.jpg',
+            name: 'Modern Black Leather Suit',
+            filter: 'Men, Jackets',
+            price: 96
+        },
+        {
+            image: '/modern_love_tee-400x520.jpg',
+            name: 'Modern Black Leather Suit',
+            filter: 'Men, Jackets',
+            price: 96
+        }],
+
+    blog: [
+        {
+            image: '/post_img_12-700x441.jpg',
+            title: 'Aenean lobortis sapien enim viverra',
+            date: 'September 9th, 2015',
+            comments: '0 Comments',
+            paragraph: 'Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla,'
+        },
+        {
+            image: '/post_img_11-700x441.jpg',
+            title: 'Duis ac massa semper maximus',
+            date: 'September 9th, 2015',
+            comments: '0 Comments',
+            paragraph: 'Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla,'
+        }, {
+            image: '/post_img_10-700x441.jpg',
+            title: 'Nunc fermint nulla eu justo sem id',
+            date: 'September 9th, 2015',
+            comments: '0 Comments',
+            paragraph: 'Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla,'
+        }],
+
+    widget: [
+        {
+            title: 'Featured',
+            products: [
+                {
+                    image: '/public/black_leather_jacket-400x520.jpg',
+                    name: 'Black Jacket',
+                    price: 125
+                },
+                {
+                    image: '/public/black_elegant_leather_jacket-400x520.jpg',
+                    name: 'Black Leather Jacket',
+                    price: 200,
+                    priceCrossed: 235,
+                    underline: true,
+                    starsRating: 5
+                },
+                {
+                    image: '/public/hipster_black_top-400x520.jpg',
+                    name: 'Hipster Black Top',
+                    price: 57
+                }
+            ]
+        },
+        {
+            title: 'On sale',
+            products: [
+                {
+                    image: '/public/black_elegant_leather_jacket-400x520.jpg',
+                    name: 'Black Leather Jacket',
+                    price: 200,
+                    priceCrossed: 235,
+                    underline: true,
+                    starsRating: 5
+                },
+                {
+                    image: '/public/blue_leather_jacket-400x520.jpg',
+                    name: 'Blue Leather Jacket',
+                    price: 60,
+                    priceCrossed: 80,
+                    underline: true
+                },
+                {
+                    image: '/public/brown_dress_shoes-400x520.jpg',
+                    name: 'Modern Leather Boots',
+                    price: 30,
+                    priceCrossed: 50,
+                    underline: true
+                }
+            ]
+        },
+        {
+            title: 'Top rated',
+            products: [
+                {
+                    image: '/public/leather_gloves-400x520.jpg',
+                    name: 'Leather Gloves',
+                    price: 45,
+                    starsRating: 5
+                },
+                {
+                    image: '/public/black_elegant_leather_jacket-400x520.jpg',
+                    name: 'Black Leather Jacket',
+                    price: 200,
+                    priceCrossed: 235,
+                    underline: true,
+                    starsRating: 5
+                },
+                {
+                    image: '/public/spring_printed_dress-400x520.jpg',
+                    name: 'Spring Printed Dress',
+                    price: 47,
+                    starsRating: 5
+                }
+            ]
+        },
+        {
+            title: 'Latest reviews',
+            products: [
+                {
+                    image: '/public/black_elegant_leather_jacket-400x520.jpg',
+                    name: 'Black Leather Jacket',
+                    starsRating: 5,
+                    reviewer: 'by admin'
+                },
+                {
+                    image: '/public/leather_gloves-400x520.jpg',
+                    name: 'Leather Gloves',
+                    starsRating: 5,
+                    reviewer: 'by Beardman'
+                },
+                {
+                    image: '/public/spring_printed_dress-400x520.jpg',
+                    name: 'Spring Printed Dress',
+                    starsRating: 5,
+                    reviewer: 'by admin'
+                }
+            ]
         }
-    ],
-
-    sliderMd: [{
-        image: '/spring_printed_dress-400x520.jpg',
-        name: 'Modern Black Leather Suit',
-        filter: 'Men, Jackets',
-        price: 96
-    },
-    {
-        image: '/modern_love_tee-400x520.jpg',
-        name: 'Modern Black Leather Suit',
-        filter: 'Men, Jackets',
-        price: 96
-    },
-    {
-        image: '/black_leather_jacket-400x520.jpg',
-        name: 'Modern Black Leather Suit',
-        filter: 'Men, Jackets',
-        price: 96
-    },
-    {
-        image: '/black_elegant_leather_jacket-400x520.jpg',
-        name: 'Modern Black Leather Suit',
-        filter: 'Men, Jackets',
-        price: 96
-    },
-    {
-        image: '/hipster_black_top-400x520.jpg',
-        name: 'Modern Black Leather Suit',
-        filter: 'Men, Jackets',
-        price: 96
-    }
-    ],
-
-    sliderLg: [{
-        image: '/black_elegant_leather_jacket-400x520.jpg',
-        name: 'Modern Black Leather Suit',
-        filter: 'Men, Jackets',
-        price: 96
-    },
-    {
-        image: '/hipster_black_top-400x520.jpg',
-        name: 'Modern Black Leather Suit',
-        filter: 'Men, Jackets',
-        price: 96
-    },
-    {
-        image: '/public/black_leather_suit-400x520.jpg',
-        name: 'Modern Black Leather Suit',
-        filter: 'Men, Jackets',
-        price: 96
-    },
-    {
-        image: '/spring_printed_dress-400x520.jpg',
-        name: 'Modern Black Leather Suit',
-        filter: 'Men, Jackets',
-        price: 96
-    },
-    {
-        image: '/modern_love_tee-400x520.jpg',
-        name: 'Modern Black Leather Suit',
-        filter: 'Men, Jackets',
-        price: 96
-    }
-    ],
-
-    blog: [{
-        image: '/src/components/post_img_12-700x441.jpg',
-        title: 'Aenean lobortis sapien enim viverra',
-        date: 'September 9th, 2015',
-        comments: '0 Comments',
-        paragraph: 'Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla,'
-    },
-    {
-        image: '/src/components/post_img_11-700x441.jpg',
-        title: 'Duis ac massa semper maximus',
-        date: 'September 9th, 2015',
-        comments: '0 Comments',
-        paragraph: 'Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla,'
-    }, {
-        image: '/src/components/post_img_10-700x441.jpg',
-        title: 'Nunc fermint nulla eu justo sem id',
-        date: 'September 9th, 2015',
-        comments: '0 Comments',
-        paragraph: 'Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla,'
-    }]
+    ]
 });

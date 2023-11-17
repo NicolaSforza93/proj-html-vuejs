@@ -125,7 +125,7 @@ nav {
 }
 
 button {
-    background-color: #517DCB;
+    background-color: $skyblue-color;
     color: white;
     font-size: 13px;
     border-radius: 17px;

@@ -78,7 +78,7 @@ export default {
 @use '../styles/partials/variables' as *;
 
 .social-icons {
-    font-size: 12px;
+    font-size: 13px;
 
     a {
         color: #585C60;
@@ -91,7 +91,7 @@ export default {
 }
 
 .menu-user {
-    font-size: 11px;
+    font-size: 13px;
 
     a {
         color: $gray-color;
@@ -104,7 +104,7 @@ export default {
 
 nav {
     li a {
-        font-size: 13px;
+        font-size: 14px;
         color: $gray-color;
     }
 }

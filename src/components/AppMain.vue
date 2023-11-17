@@ -9,10 +9,11 @@ import AppBlog from './AppBlog.vue';
 import AppWidget from './AppWidget.vue';
 import AppBrand from './AppBrand.vue';
 import AppSubscription from './AppSubscription.vue';
+import AppFooter from './AppFooter.vue';
 import { store } from '../store';
 
 export default {
-    components: { AppHero, AppCard, AppSlider, AppCollections, AppPromo, AppTestimonial, AppBlog, AppWidget, AppBrand, AppSubscription },
+    components: { AppHero, AppCard, AppSlider, AppCollections, AppPromo, AppTestimonial, AppBlog, AppWidget, AppBrand, AppSubscription, AppFooter },
     data() {
         return {
             store
@@ -75,6 +76,8 @@ export default {
     <AppBrand />
 
     <AppSubscription />
+
+    <AppFooter />
 </template>
 
 <style lang="scss" scoped>

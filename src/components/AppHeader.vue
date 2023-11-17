@@ -19,9 +19,9 @@ export default {
                 <div class="top-strip d-flex justify-content-between">
                     <div class="social-icons py-3">
                         <ul class="d-flex align-items-center gap-3 mb-0 px-0">
-                            <li v-for="(brandIcon, index) in store.brandIcons" :key="index">
+                            <li v-for="(Icon, index) in store.socialIcons" :key="index">
                                 <a href="#">
-                                    <font-awesome-icon :icon="brandIcon" />
+                                    <font-awesome-icon :icon="Icon" />
                                 </a>
                             </li>
                         </ul>

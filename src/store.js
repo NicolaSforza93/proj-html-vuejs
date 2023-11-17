@@ -1,7 +1,7 @@
 import { reactive } from "vue";
 
 export const store = reactive({
-    brandIcons: ['fa-brands fa-facebook-f', 'fa-brands fa-x-twitter', 'fa-brands fa-instagram', 'fa-brands fa-youtube'],
+    socialIcons: ['fa-brands fa-facebook-f', 'fa-brands fa-x-twitter', 'fa-brands fa-instagram', 'fa-brands fa-youtube'],
     navLinks: [
         {
             name: 'Home',
@@ -245,6 +245,23 @@ export const store = reactive({
                     reviewer: 'by admin'
                 }
             ]
+        }
+    ],
+    brands: [
+        {
+            image: '/public/b_logotype_6.png'
+        },
+        {
+            image: '/public/b_logotype_7.png'
+        },
+        {
+            image: '/public/b_logotype_1.png'
+        },
+        {
+            image: '/public/b_logotype_2.png'
+        },
+        {
+            image: '/public/b_logotype_3.png'
         }
     ]
 });

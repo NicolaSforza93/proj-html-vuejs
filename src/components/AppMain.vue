@@ -7,10 +7,12 @@ import AppPromo from './AppPromo.vue';
 import AppTestimonial from './AppTestimonial.vue';
 import AppBlog from './AppBlog.vue';
 import AppWidget from './AppWidget.vue';
+import AppBrand from './AppBrand.vue';
+import AppSubscription from './AppSubscription.vue';
 import { store } from '../store';
 
 export default {
-    components: { AppHero, AppCard, AppSlider, AppCollections, AppPromo, AppTestimonial, AppBlog, AppWidget },
+    components: { AppHero, AppCard, AppSlider, AppCollections, AppPromo, AppTestimonial, AppBlog, AppWidget, AppBrand, AppSubscription },
     data() {
         return {
             store
@@ -69,6 +71,10 @@ export default {
     <AppBlog />
 
     <AppWidget />
+
+    <AppBrand />
+
+    <AppSubscription />
 </template>
 
 <style lang="scss" scoped>

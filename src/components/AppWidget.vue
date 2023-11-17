@@ -14,7 +14,7 @@ export default {
 <template>
     <section class="widget border-top py-5">
         <div class="container">
-            <div class="widget-content" v-for="(item, index) in store.widget" :key="index">
+            <div v-for="(item, index) in store.widget" :key="index">
                 <h6 class="widget-title text-uppercase mb-3">{{ item.title }}</h6>
                 <ul class="product-list ps-0" v-for="(product, index) in item.products" :key="index">
                     <li class="d-flex py-2 border-bottom">

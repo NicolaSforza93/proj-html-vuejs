@@ -5,10 +5,11 @@ import AppSlider from './AppSlider.vue';
 import AppCollections from './AppCollections.vue';
 import AppPromo from './AppPromo.vue';
 import AppTestimonial from './AppTestimonial.vue';
+import AppBlog from './AppBlog.vue';
 import { store } from '../store';
 
 export default {
-    components: { AppHero, AppCard, AppSlider, AppCollections, AppPromo, AppTestimonial },
+    components: { AppHero, AppCard, AppSlider, AppCollections, AppPromo, AppTestimonial, AppBlog },
     data() {
         return {
             store
@@ -52,7 +53,7 @@ export default {
 
     <AppPromo />
 
-    <section class="best-seller text-center py-5">
+    <section class=" text-center py-5">
         <div class="container">
             <h2 class="title d-flex align-items-center justify-content-center gap-4 mb-1">New Arrivals</h2>
             <p class="mb-4">Brand new products from top designers</p>
@@ -63,6 +64,8 @@ export default {
     </section>
 
     <AppTestimonial />
+
+    <AppBlog />
 </template>
 
 <style lang="scss" scoped>

@@ -67,7 +67,8 @@ export default {
                             v-if="navLink.arrow === true" />
                     </li>
                 </ul>
-                <button type="button" class="btn text-nowrap text-uppercase fw-semibold px-3">Shop Now!</button>
+                <button type="button" class="btn btn-primary text-nowrap text-uppercase fw-semibold px-3">Shop
+                    Now!</button>
                 <font-awesome-icon icon="fa-solid fa-magnifying-glass" class="search" />
             </nav>
         </div>

@@ -16,8 +16,8 @@ export default {
         <div class="container">
             <div v-for="(item, index) in store.widget" :key="index">
                 <h6 class="widget-title text-uppercase mb-3">{{ item.title }}</h6>
-                <ul class="product-list ps-0 mb-0" v-for="(product, index) in item.products" :key="index">
-                    <li class="d-flex py-2 border-bottom">
+                <ul class="product-list ps-0 mb-0">
+                    <li class="d-flex py-2 border-bottom" v-for="(product, index) in item.products" :key="index">
                         <img class="product-image order-1" :src="product.image" alt="">
                         <div class="flex-grow-1">
                             <p class="product-name mb-0">{{ product.name }}</p>

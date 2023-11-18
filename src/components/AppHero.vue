@@ -32,7 +32,7 @@
         color: white;
 
         h1 {
-            font-size: 60px;
+            font-size: 62px;
             font-family: 'Montserrat', sans-serif;
             font-weight: 700;
         }

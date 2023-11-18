@@ -61,6 +61,12 @@ export default {
 .card {
     border: none;
 
+    img:hover {
+        transform: scale(1.1);
+        transition: all 1s;
+        cursor: pointer;
+    }
+
     .card-body {
         .card-title {
             font-weight: 700;

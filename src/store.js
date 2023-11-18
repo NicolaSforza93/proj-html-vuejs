@@ -64,65 +64,67 @@ export const store = reactive({
     sliderMd: [
         {
             image: '/spring_printed_dress-400x520.jpg',
-            name: 'Modern Black Leather Suit',
-            filter: 'Men, Jackets',
-            price: 96
+            name: 'Spring Printed Dress',
+            filter: 'Dress, Women',
+            price: 47
         },
         {
             image: '/modern_love_tee-400x520.jpg',
-            name: 'Modern Black Leather Suit',
-            filter: 'Men, Jackets',
-            price: 96
+            name: 'Modern Love Tee',
+            filter: 'T-shirts, Women',
+            price: 68
         },
         {
             image: '/black_leather_jacket-400x520.jpg',
-            name: 'Modern Black Leather Suit',
-            filter: 'Men, Jackets',
-            price: 96
+            name: 'Black Jacket',
+            filter: 'Jackets, Women',
+            price: 125
         },
         {
             image: '/black_elegant_leather_jacket-400x520.jpg',
-            name: 'Modern Black Leather Suit',
-            filter: 'Men, Jackets',
-            price: 96
+            name: 'Black Leather Jacket',
+            filter: 'Men, Jackets, Jeans',
+            priceCrossed: 235,
+            price: 200
         },
         {
             image: '/hipster_black_top-400x520.jpg',
-            name: 'Modern Black Leather Suit',
-            filter: 'Men, Jackets',
-            price: 96
+            name: 'Hipster Black Top',
+            filter: 'T-shirts, Women',
+            price: 57
         }],
 
     sliderLg: [
         {
             image: '/black_elegant_leather_jacket-400x520.jpg',
-            name: 'Modern Black Leather Suit',
-            filter: 'Men, Jackets',
-            price: 96
+            name: 'Black Leather Jacket',
+            filter: 'Men, Jackets, Jeans',
+            priceCrossed: 235,
+            price: 200
         },
         {
             image: '/hipster_black_top-400x520.jpg',
-            name: 'Modern Black Leather Suit',
-            filter: 'Men, Jackets',
-            price: 96
+            name: 'Hipster Black Top',
+            filter: 'T-shirts, Women',
+            price: 57
         },
         {
-            image: '/public/black_leather_suit-400x520.jpg',
-            name: 'Modern Black Leather Suit',
+            image: '/black_leather_suit-400x520.jpg',
+            name: 'Black Leather Suit',
             filter: 'Men, Jackets',
-            price: 96
+            price: 176
         },
         {
             image: '/spring_printed_dress-400x520.jpg',
-            name: 'Modern Black Leather Suit',
-            filter: 'Men, Jackets',
-            price: 96
+            name: 'Spring Printed Dress',
+            filter: 'Dress, Women',
+            price: 47
         },
         {
             image: '/modern_love_tee-400x520.jpg',
-            name: 'Modern Black Leather Suit',
-            filter: 'Men, Jackets',
-            price: 96
+            name: 'Modern Love Tee',
+            filter: 'T-shirts, Women',
+            price: 68
         }],
 
     blog: [

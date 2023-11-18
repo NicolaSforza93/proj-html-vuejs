@@ -106,6 +106,10 @@ nav {
     li a {
         font-size: 14px;
         color: $gray-color;
+
+        &:hover {
+            color: $skyblue-color;
+        }
     }
 }
 

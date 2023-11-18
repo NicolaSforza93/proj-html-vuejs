@@ -9,9 +9,6 @@ export default {
             tags: ['Black', 'boots', 'Brown', 'Casual', 'D&G', 'Fabric', 'flowers', 'Grey', 'hat', 'Hipster', 'lines', 'multi-purpose', 'New Tork', 'Outdoors', 'red', 'responsive', 'summer', 'sweater', 'Travel', 'Warm', 'White', 'winter']
         }
     },
-    mounted() {
-        console.log(store.widget[2]);
-    }
 }
 
 </script>
@@ -40,8 +37,8 @@ export default {
             </div>
             <div>
                 <h6 class="widget-title text-uppercase mb-3">{{ store.widget[2].title }}</h6>
-                <ul class="product-list ps-0 mb-0" v-for="(product, index) in store.widget[2].products" :key="index">
-                    <li class="d-flex py-2 border-bottom">
+                <ul class="product-list ps-0 mb-0">
+                    <li class="d-flex py-2" v-for="(product, index) in store.widget[2].products" :key="index">
                         <img class="product-image order-1" :src="product.image" alt="">
                         <div class="flex-grow-1">
                             <p class="product-name mb-0">{{ product.name }}</p>
@@ -57,7 +54,6 @@ export default {
                                         product.price
                                     }}</span>
                             </div>
-                            <p class="reviewer">{{ product.reviewer }}</p>
                         </div>
                     </li>
                 </ul>
@@ -144,8 +140,9 @@ address {
     }
 }
 
-.product-list {
+.product-list li {
     font-size: 15px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.116);
 
     .product-image {
         max-width: 58px;

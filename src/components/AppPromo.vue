@@ -39,10 +39,11 @@
         h2 {
             font-family: 'Montserrat', sans-serif;
             font-weight: 700;
+            font-size: 38px;
         }
 
         p {
-            font-size: 13px;
+            font-size: 15px;
         }
     }
 
@@ -59,7 +60,7 @@
         background-color: rgba(255, 255, 255, 0.221);
         border-radius: 17px;
         color: white;
-        font-size: 10px;
+        font-size: 13px;
         font-weight: 500;
 
         &:hover {

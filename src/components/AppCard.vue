@@ -43,6 +43,11 @@ export default {
     background: linear-gradient(#6689CF, #E2A9D1);
     opacity: 0;
 
+    &:hover {
+        opacity: 0.9;
+        cursor: pointer;
+    }
+
     .check {
         position: absolute;
         top: 50%;
@@ -56,10 +61,7 @@ export default {
     }
 }
 
-.overlay:hover {
-    opacity: 0.9;
-    cursor: pointer;
-}
+
 
 .card-body {
     .name {

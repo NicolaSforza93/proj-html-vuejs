@@ -16,7 +16,7 @@ export default {
         <div class="container">
             <h6 class="title text-uppercase text-center mb-4">Brand logos</h6>
             <div class="d-flex gap-5">
-                <figure class="mb-0 w-100" v-for="(brand, index) in store.brands" :key="index">
+                <figure class="mb-0 w-100 p-2" v-for="(brand, index) in store.brands" :key="index">
                     <img :src="brand.image" alt="">
                 </figure>
             </div>

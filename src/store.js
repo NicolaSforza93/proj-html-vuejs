@@ -192,7 +192,7 @@ export const store = reactive({
                     underline: true
                 },
                 {
-                    image: '/public/brown_dress_shoes-400x520.jpg',
+                    image: '/public/modern_leather_boots-400x520.jpg',
                     name: 'Modern Leather Boots',
                     price: 30,
                     priceCrossed: 50,

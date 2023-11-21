@@ -3,11 +3,12 @@
 export default {
     props: {
         item: {
-            type: Object,
+            type: Array,
             required: true
         }
     }
 }
+
 </script>
 
 <template>

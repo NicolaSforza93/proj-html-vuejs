@@ -6,6 +6,30 @@ export default {
             type: Array,
             required: true
         }
+    },
+    data() {
+        return {
+            currentIndex: 0
+        }
+    },
+    methods: {
+        prevSlide() {
+            this.currentIndex--;
+            if (this.currentIndex < 0) {
+                this.currentIndex = this.item.length - 5;
+            }
+        },
+        nextSlide() {
+            this.currentIndex++;
+            if (this.currentIndex > this.item.length - 5) {
+                this.currentIndex = 0;
+            }
+        }
+    },
+    computed: {
+        visibleSlides() {
+            return this.item.slice(this.currentIndex, this.currentIndex + 5);
+        }
     }
 }
 
@@ -13,11 +37,11 @@ export default {
 
 <template>
     <div class="slider-wrapper w-100 position-relative">
-        <div class="ctrl ctrl-prev">
+        <div class="ctrl ctrl-prev" @click="prevSlide">
             <font-awesome-icon icon="fa-solid fa-chevron-left" />
         </div>
         <div class="slide d-flex">
-            <figure class="position-relative mb-0" v-for="(slide, index) in item">
+            <figure class="position-relative mb-0" v-for="(slide, index) in visibleSlides" :key="index">
                 <img :src="slide.image" alt="">
                 <div class="overlay text-white d-flex flex-column p-3">
                     <div class="flex-grow-1 d-flex flex-column justify-content-center">
@@ -43,7 +67,7 @@ export default {
                 </div>
             </figure>
         </div>
-        <div class="ctrl ctrl-next">
+        <div class="ctrl ctrl-next" @click="nextSlide">
             <font-awesome-icon icon="fa-solid fa-chevron-right" />
         </div>
     </div>

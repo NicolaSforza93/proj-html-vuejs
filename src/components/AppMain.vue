@@ -45,7 +45,7 @@ export default {
             <h2 class="title d-flex align-items-center justify-content-center gap-4 mb-1">Best Seller</h2>
             <p class="mb-4">Must have products from our top sellers</p>
             <div class="d-flex align-items-center justify-content-center">
-                <AppSlider :item="store.sliderMd" />
+                <AppSlider :item="store.slider" />
             </div>
         </div>
     </section>
@@ -58,7 +58,7 @@ export default {
             <p class="mb-4">Brand new products from top designers</p>
         </div>
         <div class="container-fluid px-0 d-flex align-items-center justify-content-center">
-            <AppSlider :item="store.sliderLg" />
+            <AppSlider :item="store.slider" />
         </div>
     </section>
 
